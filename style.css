@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.posts{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+   
+}
+
+.post{
+    width: 23%;
+    margin: 10px;
+    box-shadow: 0 4px 6px 0 rgb(0, 0,0,0.2);
+    padding: 1rem;
+    transition: 0.4s;
+
+}
+.post:hover{
+    box-shadow: 0 4px 16px 0 rgb(0, 0,0,0.2);
+}
+
+@media screen and (max-width: 992px) {
+    .post{
+        width: 50%;
+   
+    
+    }
+
+}
+@media screen and (max-width: 490px) {
+    .post{
+        width: 100%;
+   
+    
+    }
+
+
+
+}
